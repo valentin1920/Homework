@@ -1,0 +1,151 @@
+
+body {
+    background-color: #00923e;
+    font-family: Tahoma;
+}
+#carrier {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table {
+    border-radius: 25px;
+    overflow: hidden;
+}
+tr:nth-child(2n + 1) {
+    background-color: white;
+}
+tr:nth-child(2n) {
+    background-color: #c8c8c8;
+}
+th {
+    color: black;
+    font-weight: bold;
+    background-color: #f8c711;
+    height: 40px;
+}
+td {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+}
+.left {
+    float: right;
+    padding-right: 5px;
+}
+.th-left {
+    padding-right: 5px;
+    text-align: right;
+}
+.th-right {
+    padding-left: 5px;
+    text-align: left;
+}
+.left-teams {
+    text-align: right;
+    padding-right: 5px;
+}
+.right-teams {
+    text-align: left;
+    padding-left: 5px;
+}
+.results {
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 80px;
+}
+.groups {
+    width: 80px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+select {
+    width: 35px;
+    height: 35px;
+}
+td.place-a-bet {
+    width: 160px;    
+}
+td.place-a-bet, td.button {
+    text-align: center;
+    vertical-align: middle;
+}
+td.button {
+    width: 60px;
+    height: 50px;
+}
+button:disabled {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+}
+button:enabled {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+}
+select:disabled {
+    color: red;
+    background-color: #dcdcdc;
+}
+select:enabled {
+    color: green;
+}
+#brasil:after {
+    content: url('images/brasil.png');
+    padding-left: 5px;
+}
+#mexico:before {
+    content: url('images/mexico.png');
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#spain:after {
+    content: url('images/spain.png');
+    padding-left: 5px;
+}
+#netherlands:before {
+    content: url('images/netherlands.png');
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#italy:after {
+    content: url('images/italy.png');
+    padding-left: 5px;
+}
+#england:before {
+    content: url('images/england.png');
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#argentina:after {
+    content: url('images/argentina.png');
+    padding-left: 5px;
+}
+#bosnia:before {
+    content: url('images/bosna.png');
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#germany:after {
+    content: url('images/germany.png');
+    padding-left: 5px;
+}
+#portugal:before {
+    content: url('images/portugal.png');
+    padding-left: 5px;
+    padding-right: 5px;
+}
